@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+
+
+<body>
+
+    <!-- Start of first page -->
+    <div data-role="page" id="page1">
+    
+        <div data-role="header">
+            <h1>Foo</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <div data-role="navbar">
+                <ul><li><a href="#" class="ui-btn-active">One</a></li>
+                <li><a href="#page2">Two</a></li>
+                <li><a href="#page3">Three</a></li></ul>
+            </div>
+
+            <div id="test1">page1</div>
+            <div id="button"><button>AJAX</button></div>
+            <div id="content"></div>
+        </div>
+    
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+    <!-- /page -->
+    
+
+<!-- ===============================================================================-->
+
+    <!-- Start of second page -->
+    <div data-role="page" id="page2">
+    
+        <div data-role="header">
+            <h1>Bar</h1>
+        </div>
+        <div role="main" class="ui-content">
+                <div data-role="navbar">
+                            <ul><li><a href="#page1">One</a></li>
+                            <li><a href="#" class="ui-btn-active">Two</a></li>
+                            <li><a href="#page3">Three</a></li></ul>
+                        </div>
+
+            <div>page2</div>
+        </div>
+    
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+    <!-- /page -->
+
+
+    <!-- ===============================================================================-->
+
+    <!-- Start of second page -->
+    <div data-role="page" id="page3">
+    
+        <div data-role="header">
+            <h1>Bar</h1>
+        </div>
+        <div role="main" class="ui-content">
+                <div data-role="navbar">
+                            <ul><li><a href="#page1">One</a></li>
+                            <li><a href="#page2">Two</a></li>
+                            <li><a href="#" class="ui-btn-active">Three</a></li></ul>
+                        </div>
+
+            <div>page3</div>
+        </div>
+    
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+    <!-- /page -->
+    </body>
