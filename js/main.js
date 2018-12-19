@@ -33,7 +33,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#button").click(function(){
 
-        getData('http:///localhost:3000/books', function(response) {
+        getData('http://localhost:3000/books', function(response) {
             //alert('The response was: ' + response);
             //$("#content").html('<a href="">'+response+"</a>");
 
